@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+error_reporting(E_ALL|E_STRICT);
+ini_set('display_errors', 1);
+
+require dirname(__FILE__) . '/../libs/PHP-Parser/lib/bootstrap.php';
+require dirname(__FILE__) . '/../src/php/bootstrap.php';
+
+echo snowscript_to_php(file_get_contents($argv[1]));

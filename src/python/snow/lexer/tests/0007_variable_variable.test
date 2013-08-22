@@ -1,0 +1,7 @@
+a = 32
+b = {c}()
+d = echo {b} + 32
+----
+NAME<a> = NUMBER<32> 
+NAME<b> = { NAME<c> } ( ) 
+NAME<d> = ECHO { NAME<b> } + NUMBER<32>

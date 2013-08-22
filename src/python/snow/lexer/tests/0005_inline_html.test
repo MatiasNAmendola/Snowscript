@@ -1,0 +1,21 @@
+i_am_snow()
+%> I am html
+   still html 
+     <%
+now_snow_again()
+%> and 
+    html 
+        to 
+            the 
+end
+----
+PHP_STRING<i_am_snow> ( ) 
+INLINE_HTML< I am html
+   still html 
+     > 
+PHP_STRING<now_snow_again> ( ) 
+INLINE_HTML< and 
+    html 
+        to 
+            the 
+end>
